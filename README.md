@@ -1,16 +1,51 @@
-# React + Vite
+# Sistema de Gestão Trabalhista
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. Apresentação
 
-Currently, two official plugins are available:
+Este projeto consiste no desenvolvimento de um sistema web para auxiliar na organização de informações trabalhistas de pequenas empresas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O sistema foi desenvolvido como parte de um projeto acadêmico do curso de Tecnologia da Informação da UFMS.
 
-## React Compiler
+## 2. Objetivo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Facilitar o cadastro de empresas e funcionários, a simulação de folha de pagamento e o acompanhamento de obrigações trabalhistas.
 
-## Expanding the ESLint configuration
+## 3. Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Cadastro e consulta de empresas.
+- Cadastro e consulta de funcionários.
+- Simulação de folha de pagamento.
+- Cadastro e acompanhamento de obrigações trabalhistas.
+- Marcação de obrigações como concluídas.
+- Salvamento dos dados no navegador.
+- Backup e restauração de cadastros de empresas e funcionários.
+
+## 4. Tecnologias utilizadas
+
+- HTML
+- CSS
+- JavaScript
+- React
+- Vite
+- Git e GitHub
+
+## 5. Como executar o projeto
+
+1. Instale o Node.js.
+2. Baixe ou clone este repositório.
+3. Abra a pasta do projeto no terminal.
+4. Execute `npm install`.
+5. Execute `npm run dev`.
+6. Abra no navegador o endereço informado pelo Vite.
+
+## 6. Observações
+
+O sistema é um protótipo acadêmico. A simulação da folha de pagamento não substitui um sistema oficial de cálculo trabalhista e não realiza automaticamente a transmissão de eventos ao eSocial.
+
+Os dados são armazenados no navegador utilizado. Para uso profissional, serão necessárias melhorias de segurança, banco de dados e validação das regras trabalhistas.
+
+## 7. Autoria
+
+Projeto acadêmico desenvolvido por Stéfani Cavalcante de Lima Brites.
+
+Curso: Tecnologia da Informação — UFMS.
