@@ -1,0 +1,35 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="nk6GsjWjeR6ZVVXuMIV0">
+    <mxGraphModel dx="1246" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5vJCNUPSa_r0OtTmt0GA-4" edge="1" parent="1" source="5vJCNUPSa_r0OtTmt0GA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="5vJCNUPSa_r0OtTmt0GA-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5vJCNUPSa_r0OtTmt0GA-5" edge="1" parent="1" source="5vJCNUPSa_r0OtTmt0GA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="5vJCNUPSa_r0OtTmt0GA-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="947" y="115" />
+              <mxPoint x="947" y="270" />
+              <mxPoint x="940" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5vJCNUPSa_r0OtTmt0GA-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;EMPRESAS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;code&gt;id&lt;/code&gt; — Chave primária (PK)&lt;/p&gt;&lt;p&gt;&lt;code&gt;razao_social&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;cnpj&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;telefone&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="220" x="450" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5vJCNUPSa_r0OtTmt0GA-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;OBRIGAÇÕES&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;code&gt;id&lt;/code&gt; — Chave primária (PK)&lt;/p&gt;&lt;p&gt;&lt;code&gt;descricao&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;vencimento&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;status&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;empresa_id&lt;/code&gt; — Chave estrangeira (FK)&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="240" x="860" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5vJCNUPSa_r0OtTmt0GA-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;FUNCIONÁRIOS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;code&gt;id&lt;/code&gt; — Chave primária (PK)&lt;/p&gt;&lt;p&gt;&lt;code&gt;nome&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;cpf&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;cargo&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;salario&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;empresa_id&lt;/code&gt; — Chave estrangeira (FK)&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="260" x="40" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
