@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Arquivos locais do banco SQLite
+database/*.db
+database/*.db-journal
+database/*.db-wal
+database/*.db-shm
